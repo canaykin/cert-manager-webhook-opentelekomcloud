@@ -15,7 +15,7 @@ certManager:
   serviceAccountName: cert-manager
 
 image:
-  repository: akyriako78/cert-manager-webhook-opentelekomcloud
+  repository: quay.io/akyriako/cert-manager-webhook-opentelekomcloud
   tag: v0.1.5
   pullPolicy: IfNotPresent
 
